@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <top>
+      <AnchorPane prefHeight="61.0" prefWidth="700.0" style="-fx-background-color: #092635;" BorderPane.alignment="CENTER">
+         <children>
+            <FontAwesomeIconView fill="#f0ece5" glyphName="BOOK" layoutX="14.0" layoutY="43.0" size="40" wrappingWidth="17.142823219299316">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </FontAwesomeIconView>
+            <Label layoutX="59.0" layoutY="17.0" text="Management" textFill="#f0ece5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="#9ec8b9" glyphName="USER" layoutX="293.0" layoutY="37.0" size="20" wrappingWidth="17.142823219299316" />
+            <FontAwesomeIconView fill="#9ec8b9" glyphName="ID_CARD" layoutX="543.0" layoutY="37.0" size="20" wrappingWidth="17.142823219299316" />
+            <FontAwesomeIconView />
+            <Label layoutX="321.0" layoutY="18.0" text="Khamed Mohammed Taha" textFill="#9ec8b9">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="577.0" layoutY="17.0" text="30001" textFill="#9ec8b9">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="236.0" layoutY="17.0" text="Admin" textFill="#f0ece5">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <FontAwesomeIconView fill="#f0ece5" glyphName="CIRCLE" layoutX="301.0" layoutY="43.0" size="10" wrappingWidth="17.142823219299316" />
+         </children>
+      </AnchorPane>
+   </top>
+   <right>
+      <AnchorPane prefHeight="439.0" prefWidth="704.0" style="-fx-background-color: F0ECE5;" BorderPane.alignment="CENTER">
+         <children>
+            <Label layoutX="285.0" layoutY="30.0" text="Dashbord" textAlignment="CENTER" textFill="#092635">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Button layoutX="85.0" layoutY="85.0" mnemonicParsing="false" prefHeight="134.0" prefWidth="242.0" text="Control Page">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="373.0" layoutY="85.0" mnemonicParsing="false" prefHeight="134.0" prefWidth="247.0" text="Oredres">
+               <font>
+                  <Font name="System Bold" size="22.0" />
+               </font>
+            </Button>
+            <Button layoutX="85.0" layoutY="254.0" mnemonicParsing="false" prefHeight="141.0" prefWidth="242.0" text="settings">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView glyphName="COG" />
+               </graphic>
+            </Button>
+            <Button layoutX="376.0" layoutY="254.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="111.0" text="Logout">
+               <graphic>
+                  <FontAwesomeIconView glyphName="SIGN_OUT" size="20" />
+               </graphic>
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="508.0" layoutY="254.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="111.0" text="Help">
+               <font>
+                  <Font name="System Bold" size="11.0" />
+               </font>
+               <graphic>
+                  <FontAwesomeIconView glyphName="INFO" />
+               </graphic>
+            </Button>
+            <Button layoutX="508.0" layoutY="329.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="111.0" style="-fx-background-color: #CD6155;" text="Stop" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <Button layoutX="376.0" layoutY="329.0" mnemonicParsing="false" prefHeight="65.0" prefWidth="111.0" style="-fx-background-color: #58D68D;" text="Start" textFill="WHITE">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+            </Button>
+            <FontAwesomeIconView glyphName="DASHBOARD" layoutX="252.0" layoutY="61.0" size="25" wrappingWidth="25.0" />
+         </children>
+      </AnchorPane>
+   </right>
+</BorderPane>
