@@ -19,3 +19,7 @@ This project focuses on creating an intuitive user interface that facilitates ef
 - **xml**
 - **CSS**
 
+## Screenshots
+Here are some screenshots of the project in action:
+
+![Main Interface](ihm1.png)
