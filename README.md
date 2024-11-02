@@ -23,3 +23,12 @@ This project focuses on creating an intuitive user interface that facilitates ef
 Here are some screenshots of the project in action:
 
 ![Main Interface](ihm1.png)
+![Main Interface](ihm2.png)
+![Main Interface](ihm3.png)
+![Main Interface](ihm4.png)
+![Main Interface](ihm5.png)
+![Main Interface](ihm6.png)
+![Main Interface](ihm7.png)
+![Main Interface](ihm8.png)
+![Main Interface](ihm9.png)
+
